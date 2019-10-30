@@ -3,6 +3,7 @@ import Saludo from './Saludo';
 import SaludoFuncional from './SaludoFuncional';
 import Contador from './Contador';
 import ContadorHook from './ContadorHook';
+import ListaItems from './ListaItems';
 
 class Intro extends React.Component {
 
@@ -40,6 +41,7 @@ class Intro extends React.Component {
         <SaludoFuncional nombre="Kozinsky" />
         <Contador cuenta={this.state.cuenta} onHandleClick={this.onHandleClick} calculaCuenta={this.calculaCuenta} />
         <ContadorHook />
+        <ListaItems />
       </div>
     )
   }

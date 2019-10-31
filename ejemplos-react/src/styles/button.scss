@@ -1,0 +1,9 @@
+$rojo: red;
+$blanco: white;
+
+button#con-estilos {
+  background-color: $rojo;
+  color: $blanco;
+  border-radius: 10px;
+  border: none;
+}
